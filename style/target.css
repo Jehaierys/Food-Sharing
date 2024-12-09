@@ -1,0 +1,9 @@
+#target {
+    ul {
+        list-style-type: disc;
+        li {
+            line-height: 2;
+            color: #333333;
+        }
+    }
+}

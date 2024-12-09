@@ -1,0 +1,20 @@
+#greeting {
+    h2 {
+        font-weight: 600;
+        color: #252525;
+        line-height: 0.9;
+        font-size: 64px;
+    }
+    p {
+        line-height: 1.8;
+    }
+}
+
+@media (min-width: 1440px) {
+    #greeting {
+        height: 600px;
+        h2 {
+
+        }
+    }
+}
