@@ -1,6 +1,7 @@
 #target {
     padding: 10px 0 70px 0;
     display: grid;
+    align-items: center;
     div {
         h2 {
             margin: 0 0 0 35px;

@@ -1,18 +1,20 @@
 #plan {
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     padding: 30px 0;
-    gap: 20px;
+    align-items: center;
     div {
         h2 {
+            width: 100%;
             font-weight: 600;
             color: #FAE9E9;
             line-height: 0.9;
             font-size: 64px;
+            margin: 0 0 0 84px;
         }
         ol {
             li {
-                margin: 23px 78px 23px 0;
+                margin: 23px 0 23px 84px;
                 color: #FAE9E9;
             }
         }
@@ -35,7 +37,6 @@
 
 @media (min-width: 1440px) {
     #plan {
-        grid-template-columns: 4fr 3fr;
-        gap: 30px;
+        grid-template-columns: 3fr 4fr;
     }
 }
