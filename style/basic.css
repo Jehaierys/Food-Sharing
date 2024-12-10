@@ -4,45 +4,72 @@ body {
     margin: 0;
     border: 0;
     font-family: 'Open Sans', sans-serif;
-    header {
-        width: 100%;
-        background: url("./../img/header_bg.jpg") no-repeat center bottom/ cover;
-        h1 {
-            text-align: left;
+}
+
+header {
+    width: 100%;
+    background: url("./../img/header_bg.jpg") no-repeat center bottom/ cover;
+    h1 {
+        text-align: left;
+        text-transform: uppercase;
+        line-height: 0.8;
+        font-weight: 900;
+        font-size: 118px;
+        position: absolute;
+        top: 2.5vh;
+        left: 73vw;
+        margin: 0;
+        padding: 0;
+        color: #265D35;
+    }
+}
+main {
+    width: 100%;
+    background-color: #265D35;
+    font-size: 32px;
+    color: #FAE9E9;
+    display: grid;
+    justify-content: center;
+    section {
+        margin: 40px 0;
+        h2 {
+            font-weight: 600;
+            color: #FAE9E9;
+            line-height: 0.9;
+            font-size: 64px;
             text-transform: uppercase;
-            line-height: 0.8;
-            font-weight: 900;
-            font-size: 118px;
-            position: absolute;
-            top: 2.5vh;
-            left: 73vw;
+        }
+        p {
+            color: #FAE9E9;
             margin: 0;
             padding: 0;
-            color: #265D35;
+            line-height: 1.8;
+            text-align: justify;
         }
     }
-    main {
-        width: 100%;
-        background-color: #265D35;
-        font-size: 32px;
-        color: #FAE9E9;
+}
+
+footer {
+    background: url("./../img/footer_bg.jpg") no-repeat center / cover;
+    display: grid;
+    width: 100%;
+    height: 340px;
+    div.social-holder {
+        margin: 230px 0 0 0;
+        height: 70px;
         display: grid;
         justify-content: center;
-        section {
-            margin: 40px 0;
-            h2 {
-                font-weight: 600;
-                color: #FAE9E9;
-                line-height: 0.9;
-                font-size: 64px;
-                text-transform: uppercase;
-            }
-            p {
-                color: #FAE9E9;
-                margin: 0;
-                padding: 0;
-                line-height: 1.8;
-                text-align: justify;
+        align-content: center;
+        grid-template-columns: repeat(3, 60px);
+        gap: 50px;
+        div.social {
+            height: 60px;
+            background: transparent;
+            border-radius: 30px;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+            img {
+                width: 100%;
+                height: 100%;
             }
         }
     }
