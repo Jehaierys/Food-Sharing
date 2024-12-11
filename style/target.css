@@ -23,7 +23,14 @@
         grid-template-columns: 1fr;
         justify-items: center;
         div {
+            h2 {
 
+            }
+            ul {
+                li {
+                    margin: 0 0 0 15px;
+                }
+            }
         }
     }
 }
