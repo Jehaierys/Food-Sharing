@@ -3,7 +3,7 @@
     align-items: center;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1260px) {
     #plan {
         grid-template-columns: 3fr 4fr;
         div {
@@ -19,7 +19,7 @@
     }
 }
 
-@media (min-width: 280px) and (max-width: 600px) {
+@media (max-width: 600px) {
     #plan {
         grid-template-columns: 1fr;
         div {
