@@ -2,8 +2,8 @@ header {
     height: 25vh;
     h1 {
         top: 2.5vh;
-        right: 2.5vw;
-        font-size: 28px;
+        left: 10vw;
+        font-size: 32px;
     }
 }
 main {
@@ -22,12 +22,19 @@ main {
             line-height: 2;
         }
         div {
-            margin: 30px 0 0 20px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            justify-items: center;
+            align-items: center;
             h2 {
-                margin: 35px 0 15px 20px;
+                padding: 10px 0;
             }
             ul {
-                margin: 10px 0 0 25px;
+                margin: 0;
+                padding: 0;
                 li {
                     line-height: 2;
                     font-size: 20px;

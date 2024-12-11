@@ -32,12 +32,15 @@ main {
         margin: 0;
         padding: 0;
         h2 {
+            width: 100%;
             font-weight: 600;
             color: #FAE9E9;
-            line-height: 0.9;
+            line-height: 1;
             text-transform: uppercase;
         }
         p {
+            word-spacing: -1px;
+            width: 100%;
             color: #FAE9E0;
             margin: 0;
             padding: 0;
@@ -60,6 +63,7 @@ main {
             }
         }
         div.img {
+            height: 100%;
             border-radius: 45px;
             background: transparent;
             overflow: hidden;
@@ -73,6 +77,9 @@ main {
                 border-radius: 45px;
             }
         }
+    }
+    section.paired {
+        margin: 50px 0;
     }
 }
 
