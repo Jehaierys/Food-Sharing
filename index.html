@@ -13,6 +13,7 @@
     <link href="style/basic.css" rel="stylesheet">
     <link href="style/basic-large.css" rel="stylesheet" media="(min-width: 1260px)">
     <link href="style/basic-mobile.css" rel="stylesheet" media="(max-width: 600px)">
+    <link href="style/basic-tablet.css" rel="stylesheet" media="(min-width: 601px) and (max-width: 1259px)">
     <link href="style/target.css" rel="stylesheet">
     <link href="style/co-founders.css" rel="stylesheet">
     <link href="style/plan.css" rel="stylesheet">
@@ -124,5 +125,14 @@
     </div>
 
 </footer>
+<script>
+    function fixHeader1() {
+        const h1 = document.getElementsByTagName('h1').item(0);
+        const windowWidth = window.innerWidth;
+        if (windowWidth < 601) {
+
+        }
+    }
+</script>
 </body>
 </html>
