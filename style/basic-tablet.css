@@ -1,20 +1,23 @@
 header {
-    height: 65vh;
+    height: 40vh;
     h1 {
         top: 2.5vh;
-        left: 5vw;
-        font-size: 118px;
+        left: 12.5vw;
+        font-size: 70px;
     }
 }
 main {
     font-size: 32px;
-    grid-template-columns: 1200px;
+    grid-template-columns: 75vw;
     box-shadow: inset 0 -10px 20px rgba(0, 0, 0, 0.15),
-    inset 0 10px 20px rgba(0, 0, 0, 0.1);
+                inset 0 10px 20px rgba(0, 0, 0, 0.1);
     section {
         margin: 40px 0;
         h2 {
-            font-size: 64px;
+            font-size: 48px;
+        }
+        p  {
+            font-size: 32px;
         }
         ul {
             li {
@@ -23,18 +26,24 @@ main {
         }
         ol {
             li {
+                margin: 25px 0 25px 15px;
                 font-size: 32px;
             }
+        }
+        div.img {
+            height: 550px;
         }
     }
 }
 footer {
-    height: 340px;
+    height: 140px;
     div.social-holder {
-        margin: 230px 0 0 0;
-        height: 70px;
+        width: 100%;
+        height: 100%;
         grid-template-columns: repeat(3, 60px);
         gap: 50px;
+        justify-content: center;
+        align-content: center;
         div.social {
             height: 60px;
             box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
